@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar.js'
+import Navbar from './components/navbar/Navbar.js'
+import Landing from './components/landing/Landing.js'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <header className="App-header">
         <Navbar />
       </header>
+      <Landing />
     </div>
   );
 }
